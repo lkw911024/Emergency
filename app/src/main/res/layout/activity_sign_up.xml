@@ -13,7 +13,7 @@
         android:background="@color/mainColor">
 
         <ImageButton
-            android:id="@+id/back_imgBtn"
+            android:id="@+id/signUp_imageButton_backBtn"
             android:layout_width="25dp"
             android:layout_height="25dp"
             android:layout_marginLeft="10dp"
@@ -52,6 +52,7 @@
             android:id="@+id/signUp_idInput_et"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:id="@+id/signUp_EditText_id"
             android:layout_margin="8dp"
             android:hint="아이디"
             android:textColorHint="@color/mainColor"
@@ -60,6 +61,7 @@
             android:id="@+id/signUp_pwdInput_et"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:id="@+id/signUp__EditText_password"
             android:layout_margin="8dp"
             android:hint="비밀번호"
             android:inputType="textPassword"
@@ -70,6 +72,7 @@
             android:id="@+id/signUp_pwdConfirmInput_et"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:id="@+id/signUp_EditText_passwordCheck"
             android:layout_margin="8dp"
             android:hint="비밀번호 확인"
             android:inputType="textPassword"
@@ -79,6 +82,7 @@
             android:id="@+id/signUp_emailInput_et"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:id="@+id/signUp_EditText_email"
             android:layout_margin="8dp"
             android:hint="Email 주소"
             android:textColorHint="@color/mainColor"
@@ -95,9 +99,11 @@
             android:layout_width="match_parent"
             android:layout_height="50dp"
             android:layout_margin="20dp"
+            android:id="@+id/signUp_Button_sendBtn"
             android:text="등록"
             android:textStyle="bold"
             android:textColor="@color/whiteColor"
-            android:background="@color/mainColor"/>
+            android:background="@color/mainColor"
+            android:onClick="onClickSignUpBtn"/>
     </LinearLayout>
 </LinearLayout>
