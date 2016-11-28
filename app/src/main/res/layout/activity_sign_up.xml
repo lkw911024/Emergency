@@ -51,39 +51,43 @@
         <EditText
             android:id="@+id/signUp_idInput_et"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            android:layout_height="40dp"
             android:layout_margin="8dp"
             android:hint="아이디"
-            android:textColorHint="@color/mainColor"
-            android:textCursorDrawable="@color/mainColor"/>
+            android:textCursorDrawable="@color/mainColor"
+            android:drawableLeft="@drawable/user2"
+            android:background="@drawable/etstyle"/>
         <EditText
             android:id="@+id/signUp_pwdInput_et"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            android:layout_height="40dp"
             android:layout_margin="8dp"
             android:hint="비밀번호"
             android:inputType="textPassword"
-            android:textColorHint="@color/mainColor"
             android:textCursorDrawable="@color/mainColor"
+            android:drawableLeft="@drawable/lock"
+            android:background="@drawable/etstyle"
             />
         <EditText
             android:id="@+id/signUp_pwdConfirmInput_et"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            android:layout_height="40dp"
             android:layout_margin="8dp"
             android:hint="비밀번호 확인"
             android:inputType="textPassword"
-            android:textColorHint="@color/mainColor"
-            android:textCursorDrawable="@color/mainColor"/>
+            android:textCursorDrawable="@color/mainColor"
+            android:drawableLeft="@drawable/lock"
+            android:background="@drawable/etstyle"/>
         <EditText
             android:id="@+id/signUp_emailInput_et"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            android:layout_height="40dp"
             android:layout_margin="8dp"
             android:hint="Email 주소"
-            android:textColorHint="@color/mainColor"
             android:inputType="textEmailAddress"
             android:textCursorDrawable="@color/mainColor"
+            android:drawableLeft="@drawable/email"
+            android:background="@drawable/etstyle"
             />
     </LinearLayout>
 
@@ -98,6 +102,6 @@
             android:text="등록"
             android:textStyle="bold"
             android:textColor="@color/whiteColor"
-            android:background="@color/mainColor"/>
+            android:background="@drawable/btnstyle"/>
     </LinearLayout>
 </LinearLayout>
